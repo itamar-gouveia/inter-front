@@ -12,6 +12,9 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: ${({theme}) => theme.colors.background};
     }
+    input{
+        outline: none;
+    }
 `;
 
 export default GlobalStyle;
