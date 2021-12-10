@@ -12,6 +12,8 @@ declare module 'styled-components' {
         tertiary: string;
         background: string;
         background2: string;
+        red:string;
+        green:string;
     };
   }
 }
